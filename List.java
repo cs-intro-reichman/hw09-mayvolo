@@ -42,7 +42,7 @@ public class List {
         Node cur = this.first;
         String res = "";
         for(int i = 0; i < size; i++) {
-           res+= cur.toString();
+           res+= cur.cp.toString();
             cur = cur.next;
         }
         return res;
